@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index 2</title>
+    <style>
+        /* CSS Selectors */
+        /* Element Selector */
+        h1{
+            color: red;
+        }
+        p{
+            color: darkviolet;
+        }
+
+        /* Decendent Selector */
+        div li{
+            color: blue;
+        }
+
+        /* Children Selector */
+        div>h2>span {
+            background-color: chartreuse;
+            color: red;
+        }
+
+        /* Class Selector */
+        .class1 {
+            color: darkslateblue;
+        }
+        .class2 {
+            color: darkred;
+        }
+        .m1.m2 {
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <!-- Add CSS  styles to all h1 tag -->
+    <h1>Hello, how are you?</h1>
+    <h1>Hello, how are you?</h1>
+    <h1 style="color: chartreuse;">Hello, how are you?</h1>
+    <h1>Hello, how are you?</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, laboriosam!</p>
+
+    <!-- Write CSS Selector to select the obvious list item and make them blue-->
+    <ol>
+        <li>I</li>
+        <li>am</li>
+        <li>a</li>
+        <li>list</li>
+    </ol>
+    <div>
+        <ol>
+            <li>Select</li>
+            <li>Me</li>
+        </ol>
+    </div>
+    <div>
+        <h2>
+            <span>I am direct son</span>
+        </h2>
+    </div>
+    <div>
+        <span>
+            <h2>
+                <span>I am indirect son</span>
+            </h2>
+        </span>
+    </div>
+
+    <!-- Make class 1 blue and class 2 red -->
+    <p class="class1">I love development</p>
+    <p class="class2">I am red</p>
+    <!-- Select the element with multiple classes and make them brown -->
+    <div class="m1 m2">Select Me</div>
+    <div class="m1">Not Me</div>
+    <div class="m2">Not Me Either</div>
+</body>
+</html>
