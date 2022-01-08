@@ -10,11 +10,15 @@ function mul(a,b){
 function div(a,b){
     console.log('The quotient is',a/b);
 }
+function rem(a,b){
+    console.log('The remainder is',a%b)
+}
 module.exports={
     addition : add,
     subtract: sub,
     multiplication : mul,
     division : div,
+    remainder : rem,
 }
 
 // module.exports is a Object provided by Node.js by
