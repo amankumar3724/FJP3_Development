@@ -1,5 +1,5 @@
 let arr = [1,2,3]
-console.log(arr, typeof(arr))
+console.log(arr, typeof(arr)) 
 
 let obj = {
     name : 'Aman',
