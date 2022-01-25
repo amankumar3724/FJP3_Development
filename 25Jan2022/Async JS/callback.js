@@ -45,3 +45,4 @@ function cb2(err, data){ //errorfirst callback
     }
 }
 console.log('After')
+// in Async JS ->> Call stack -> Node APIs list -> Call back queue -> Event Loop -> Call stack
