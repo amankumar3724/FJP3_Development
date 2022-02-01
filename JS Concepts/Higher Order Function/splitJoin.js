@@ -11,3 +11,11 @@ let joinedStr = partsOfString.join('c')
 //of the array with the passed parameter
 //and will return the complete string
 console.log(joinedStr) // joined str
+
+let nameArr = ['Aman Kumar','Jiten Pandey','Ritik Kumar']
+//you have to use map function and take out first name and last name separately
+let modifiedArr = nameArr.map(function(n){
+    let partsOfName = n.split(' ')
+    return partsOfName
+})
+console.log(modifiedArr)
