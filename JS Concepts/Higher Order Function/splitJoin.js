@@ -19,3 +19,4 @@ let modifiedArr = nameArr.map(function(n){
     return partsOfName
 })
 console.log(modifiedArr)
+
